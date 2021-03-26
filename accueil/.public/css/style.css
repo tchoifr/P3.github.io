@@ -1,3 +1,49 @@
+.localisation {
+  background: #cac9c9;
+}
+
+.bouton {
+  background-image: linear-gradient(180deg, #ff00dd, #8400ff);
+}
+
+.chiffre {
+  background: #6b03f1;
+  color: white;
+}
+
+.bloc-footer {
+  background: #2c2c2c;
+}
+
+.titre-text {
+  background: #38ecdd;
+  color: green;
+}
+
+.text-gras {
+  font-weight: bold;
+}
+
+.fonctionnement {
+  cursor: pointer;
+  background: white;
+}
+.fonctionnement:hover {
+  background: #ecdcfc;
+}
+
+p {
+  margin: 10px;
+}
+
+.titre-bloc {
+  font-size: 1.5em;
+}
+
+.coeur-bloc {
+  margin-right: 20px;
+}
+
 .header-logo {
   width: 100%;
   display: flex;
@@ -39,6 +85,13 @@
   height: 40px;
   width: 70%;
   border-radius: 25px;
+  /*transition-property: transform;
+  transition-duration: 400ms;*/
+  transition: transform 400ms;
+  cursor: pointer;
+}
+.container1 .button .bouton:hover {
+  transform: scale(1.15);
 }
 
 .container2 {
@@ -46,29 +99,33 @@
 }
 .container2 .fonctionnement {
   display: flex;
+  align-items: baseline;
   width: 100%;
   height: 50px;
   border: 1px solid #dddddd;
   border-radius: 25px;
   box-shadow: 1px 1px 1px 1px #dddddd;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 .container2 .fonctionnement .chiffre {
+  display: flex;
+  justify-content: center;
   margin-left: -4px;
   border: 1px solid #7700ff;
   width: 15px;
   font-size: 1.1em;
   border-radius: 15px;
-  height: 20px;
+  height: 17px;
 }
 .container2 .fonctionnement .icon {
   color: gray;
   margin-left: 20px;
   margin-top: 10px;
+  cursor: pointer;
 }
-.container2 .fonctionnement .icon2 {
+.container2 .fonctionnement .icon:hover {
   color: #7700ff;
-  margin-left: 20px;
-  margin-top: 10px;
 }
 .container2 .fonctionnement .text-fonctionnement {
   margin-left: 60px;
@@ -105,8 +162,10 @@
 
 .logo-footer {
   width: 100px;
-  margin: 10px;
+  margin: 5px;
   color: azure;
+  height: 25px;
+  font-size: 2em;
 }
 
 .icon-footer {
@@ -119,33 +178,22 @@
   color: azure;
 }
 
-.localisation {
-  background: #9e9e9e;
-}
+@media screen and (min-width: 430px) and (max-width: 1024px) {
+  .container-section {
+    width: 100%;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
-.bouton {
-  background: #a31fa3;
-}
+  .container1 .container2 {
+    width: 60%;
+  }
 
-.chiffre {
-  background: #6b03f1;
-}
-
-.bloc-footer {
-  background: #2c2c2c;
-}
-
-.titre-text {
-  background: #16B84E;
-  color: green;
-}
-
-p {
-  margin: 10px;
-}
-
-.titre-bloc {
-  font-size: 1.5em;
+  .container3 {
+    width: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

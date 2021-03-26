@@ -1,0 +1,37 @@
+$colour-primary: #a31fa3;
+$colour-secondary: #cac9c9;
+$colour-accent: #6b03f1;
+$colour-bleu: #38ecdd;
+$colour-invalid: #2c2c2c;
+$colour-white: rgb(255, 255, 255);
+
+.localisation{
+    background: $colour-secondary;
+}
+.bouton{
+    background-image: linear-gradient(180deg, rgb(255, 0, 221), rgb(132, 0, 255));
+}
+.chiffre{
+    background: $colour-accent ;
+    color: $colour-white;
+}
+
+.bloc-footer{
+    background: $colour-invalid ;
+}
+.titre-text{
+background: $colour-bleu;
+color: green;
+}
+.text-gras{
+    font-weight: bold;
+
+}
+.fonctionnement{
+    cursor: pointer;
+    background: $colour-white;
+
+        &:hover {
+            background: rgb(236, 220, 252) ;
+    }
+}

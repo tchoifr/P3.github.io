@@ -1,6 +1,7 @@
 {
-  "name": "package2",
+  "name": "p3",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "sass": "sass --watch ./sass/main.scss:accueil/.public/css/style.css"
@@ -14,6 +15,5 @@
   "bugs": {
     "url": "https://github.com/tchoifr/P3.github.io/issues"
   },
-  "homepage": "https://github.com/tchoifr/P3.github.io#readme",
-  "description": ""
+  "homepage": "https://github.com/tchoifr/P3.github.io#readme"
 }
