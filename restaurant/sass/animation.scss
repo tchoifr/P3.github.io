@@ -1,0 +1,14 @@
+$prog-bloc-dur: 500ms;
+$prog-bloc-delay: 1000ms;
+$bloc-delay: $prog-bloc-dur + $prog-bloc-delay;
+.bloc {
+    animation: bloc 1000ms $bloc-delay;
+}
+@keyframes bloc{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
+}

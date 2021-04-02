@@ -115,6 +115,9 @@ img {
   margin-left: 10px;
   margin-top: -15px;
 }
+.bloc-footer .footer-media .text-footer .color-liens {
+  color: azure;
+}
 
 .bloc-bottom2 {
   width: 100%;
@@ -264,6 +267,18 @@ img {
 
   p {
     font-size: 0.9em;
+  }
+}
+.bloc {
+  animation: bloc 1000ms 1500ms;
+}
+
+@keyframes bloc {
+  0% {
+    transform: translateX(-9999px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
