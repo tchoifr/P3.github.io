@@ -20,9 +20,14 @@
      margin-top: 20px;
      flex-direction: row;
  }
- .footer-media{
-     display: flex;
- }
+
+    .bloc-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    }
  .container-header{
     display: flex;
     align-items: center;
@@ -30,7 +35,19 @@
          width: 100%;
      }
  }
- .button{
-     margin: 10px;
+ .bloc-bottom2{
+     .bottom2{
+         width: 40%;
+     }
  }
+ }
+ @media screen and (max-width: 330px) {
+
+h3{
+    font-size: 1em;
+}
+p{
+    font-size: 0.9em;
+}
+
  }

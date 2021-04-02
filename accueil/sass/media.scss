@@ -17,7 +17,7 @@ margin-right: 20px;
 }
 }
 .container3{
-    width: 90%;
+    width: 70%;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -33,4 +33,30 @@ margin-right: 20px;
     border-radius: 20px;
     margin-bottom: 10px;
 }
+.bloc-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+.footer-media{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+    .logo-footer{
+    width: 100px;
+    color: white;
+    height: 33px;
+    font-size: 2em;
+    margin: 10px;
+    .logo-media{
+        width: 100%;
+    }
+    }
+
+}
+    }
+
+
+
 }
