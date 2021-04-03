@@ -106,7 +106,7 @@ p {
   box-shadow: 1px 1px 1px 1px #dddddd;
   margin-bottom: 20px;
 }
-.container2 .fonctionnement:hover + .icon {
+.container2 .fonctionnement:hover > .icon {
   color: #9356DC;
   transform: scale(1.15);
 }

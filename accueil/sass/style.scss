@@ -63,7 +63,7 @@ width: 100%;
         border-radius: 25px;
         box-shadow: 1px 1px 1px 1px  rgb(221, 221, 221) ;
         margin-bottom: 20px;
-        &:hover + .icon{
+        &:hover > .icon{
             color: #9356DC ;
             transform: scale(1.15);
         }
