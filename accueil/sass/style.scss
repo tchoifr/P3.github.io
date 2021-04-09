@@ -2,7 +2,12 @@
     text-decoration: none;
     color:rgb(255, 255, 255);
 }
- 
+ .titre{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -35px;
+    position: relative;
+    }
 .header-logo{
     width: 100%;
     display: flex;
@@ -11,12 +16,7 @@
         width: 50%;
     }
 }
-.titre{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: -35px;
-    position: relative;
-    }
+
 .container1{
     display: flex;
     flex-direction: column;

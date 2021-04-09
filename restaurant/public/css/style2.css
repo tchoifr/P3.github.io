@@ -1,6 +1,6 @@
 h3 {
   margin: 0;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 a {
@@ -9,7 +9,7 @@ a {
 }
 
 p {
-  margin: 5px;
+  margin: 3px;
   font-size: 0.9em;
 }
 
@@ -257,6 +257,7 @@ img {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: cursive;
 }
 .container-media .bloc .texte .menu .text-ellipsis {
   overflow: hidden;
@@ -265,11 +266,14 @@ img {
 
 @media screen and (min-width: 770px) and (max-width: 2560px) {
   h3 {
+    margin-top: -4px;
     font-size: 1.1em;
+    margin-bottom: 6px;
   }
 
   p {
-    font-size: 0.8em;
+    margin: 5px;
+    font-size: 1em;
   }
 
   .header {

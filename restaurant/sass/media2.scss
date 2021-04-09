@@ -1,9 +1,12 @@
 @media screen and (min-width: 770px) and (max-width:2560px){
    h3{
-       font-size: 1.1em;
+    margin-top: -4px;
+    font-size: 1.1em;
+    margin-bottom: 6px;
    }
    p{
-       font-size: 0.8em;
+    margin: 5px;
+    font-size: 1em;
    }
     .header{
     display: flex;
