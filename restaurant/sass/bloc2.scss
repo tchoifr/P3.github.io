@@ -10,12 +10,12 @@
     flex-direction: column;
     width: 100%;
 }
+
 .container-media{
   display: flex;
-    
-    flex-direction: column;
-    background: #f5f5f5;
-.bloc {
+  flex-direction: column;
+  background: #f5f5f5;
+ .bloc {
     
     width: 90%;
     height: 80px;
@@ -26,7 +26,6 @@
     margin: 10px;
     box-shadow: 2px 2px 10px #b8b8b8;
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: normal;
 
   }
@@ -39,6 +38,7 @@
         align-items: center;
         font-size: 1.5em;
         width: 0%;
+        overflow: hidden;
         
         
         &:hover{
@@ -79,9 +79,10 @@
       order: 1;
       transition: width 500ms;
       white-space: normal; 
+      overflow: hidden;
         &:hover{
         width: 70%;
-        text-overflow: ellipsis;
+        
         
       
       }
@@ -95,8 +96,14 @@
          }
       .bloc .texte .menu {
         white-space: nowrap;
-        overflow: hidden; }
-        font-size: 15px;
-        font-family: cursive;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        .text-ellipsis{
+
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        }
       }
+        
+ }
     
