@@ -91,6 +91,13 @@ a {
   color: white;
 }
 
+.titre {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -35px;
+  position: relative;
+}
+
 .header-logo {
   width: 100%;
   display: flex;
@@ -98,13 +105,6 @@ a {
 }
 .header-logo .header-img {
   width: 50%;
-}
-
-.titre {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: -35px;
-  position: relative;
 }
 
 .container1 {
@@ -256,7 +256,7 @@ a {
 }
 .bloc-footer .footer-media .bloc-text-footer .text-footer {
   color: #ffffff;
-  font-family: "shrikhandregular", sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .bloc-footer .footer-media .titre-footer {
   color: #ffffff;

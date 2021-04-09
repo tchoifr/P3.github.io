@@ -13,6 +13,16 @@ p {
   font-size: 0.9em;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header .bloc-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
 .container-img {
   display: flex;
   flex-direction: column;
@@ -279,6 +289,14 @@ img {
   .header {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header .bloc-header {
+    width: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
   }
   .header .container-img {
     width: 50%;

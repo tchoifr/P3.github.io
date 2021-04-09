@@ -14,6 +14,15 @@ p{
     font-size: 0.9em;
     
 }
+.header{
+    display: flex;
+    flex-direction: column;
+    .bloc-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    }
+}
 .container-img{
     display: flex;
     flex-direction: column;
