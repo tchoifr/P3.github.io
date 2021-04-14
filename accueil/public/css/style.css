@@ -381,7 +381,6 @@ a {
   margin-left: -8px;
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: cover;
   z-index: 1;
   position: fixed;
   animation: loader 2s ease-in;
