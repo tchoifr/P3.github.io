@@ -26,32 +26,44 @@ h1 {
 
 h2 {
   font-size: 0.9em;
-  font-family: "Shrikhand";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 p {
-  margin: 10px;
+  margin: 12px;
   font-family: "Roboto", sans-serif;
 }
 
 .titre-bloc {
-  font-size: 1.5em;
-  font-family: "Shrikhand";
-  font-style: normal;
-  font-weight: 400;
+  font-size: 1.8em;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.gras {
+  font-weight: 700;
+  margin: 16px;
 }
 
 .container1__localisation {
-  background: #dfdfdf;
+  background: #eaeaea;
+}
+
+.container1 {
+  background: #f6f6f6;
+}
+
+.container3 {
+  background: #f6f6f6;
 }
 
 .bouton {
-  background-image: linear-gradient(330deg, #9356DC, #FF79DA);
+  background-image: linear-gradient(0deg, #9356DC, #FF79DA);
 }
 .bouton:hover {
-  background-image: linear-gradient(330deg, #9864d8, #fd8bdd);
+  background-image: linear-gradient(0deg, #a276d8, #faa3e1);
 }
 
 .chiffre {
@@ -65,6 +77,7 @@ p {
 
 .titre-text {
   background: #99E2D0;
+  color: #0a9f77;
 }
 
 .text-gras {
@@ -72,14 +85,14 @@ p {
 }
 
 .fonctionnement {
-  background: white;
+  background: #f6f6f6;
 }
 .fonctionnement:hover {
   background: #f7f1fd;
 }
 
 .loader {
-  background-image: linear-gradient(to bottom, #dfdfdf, #99E2D0);
+  background-image: linear-gradient(to bottom, #eaeaea, #99E2D0);
 }
 .loader .lettre {
   color: #99E2D0;
@@ -90,17 +103,29 @@ a {
   text-decoration: none;
 }
 
-.titre {
+.container1__localisation-p {
+  color: gray;
+}
+
+body {
+  margin: 0;
+}
+
+.align-text {
   display: flex;
-  justify-content: flex-end;
-  margin-bottom: -35px;
-  position: relative;
+  justify-content: center;
+  margin: 0;
 }
 
 .header-logo {
+  font-size: 1.1em;
+  font-weight: 900;
+  margin: 11px;
   width: 100%;
   display: flex;
   justify-content: center;
+  height: 50px;
+  align-items: center;
 }
 
 .container1 {
@@ -113,55 +138,57 @@ a {
   align-items: baseline;
   width: 100%;
   justify-content: center;
-  border-radius: 20px;
+  box-shadow: inset 0px 7px 4px -8px;
 }
 .container1__localisation-p {
-  font-size: 0.9em;
+  font-size: 1.2em;
+  margin: 10px;
 }
 .container1 .text-gras {
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-weight: bold;
+  margin-top: 35px;
 }
 .container1 .button {
   width: 100%;
   height: 50px;
   display: flex;
   justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 70px;
 }
 .container1 .button .bouton {
-  height: 40px;
-  width: 70%;
+  height: 50px;
+  width: 56%;
   border-radius: 25px;
   box-shadow: 2px 2px 10px #848383;
-  /*transition-property: transform;
-  transition-duration: 400ms;*/
   transition: transform 400ms;
   border: 0;
   color: white;
-}
-.container1 .button .bouton:hover {
-  transform: scale(1.15);
+  font-size: 0.9em;
+  font-weight: 600;
 }
 
 #container2 {
-  width: 100%;
+  width: 90%;
+  margin-left: 20px;
+  margin-bottom: 70px;
 }
 #container2 .fonctionnement {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   width: 100%;
-  height: 50px;
-  border: 1px solid #dddddd;
-  border-radius: 25px;
-  box-shadow: 1px 1px 1px 1px #dddddd;
+  height: 70px;
+  border-radius: 15px;
+  box-shadow: 1px 6px 7px 0px #dddddd;
   margin-bottom: 20px;
+  font-weight: 900;
 }
 #container2 .fonctionnement:hover > .icon {
   color: #9356DC;
-  transform: scale(1.15);
 }
 #container2 .fonctionnement .icon {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #848383;
 }
 #container2 .fonctionnement .icon:hover {
@@ -171,12 +198,14 @@ a {
 #container2 .fonctionnement .chiffre {
   display: flex;
   justify-content: center;
-  margin-left: -4px;
+  margin-left: -9px;
+  margin-right: 25px;
   border: 1px solid #9356DC;
-  width: 18px;
-  font-size: 1.1em;
+  width: 20px;
+  font-size: 0.9em;
   border-radius: 15px;
-  height: 22px;
+  height: 21px;
+  align-items: center;
 }
 #container2 .fonctionnement .text-fonctionnement {
   margin-left: 40px;
@@ -185,10 +214,27 @@ a {
 
 .container3 {
   width: 100%;
+  padding-top: 1px;
+}
+.container3 .titre {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: -45px;
+  position: relative;
+  height: 35px;
+  width: 90%;
+}
+.container3 .titre .titre-text {
+  height: 30px;
+  width: 88px;
+  font-size: 1.1em;
+  font-weight: 900;
+  margin: 11px;
 }
 .container3 .image-bloc {
-  width: 100%;
+  width: 90%;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 .container3 .image {
   width: 100%;
@@ -210,16 +256,13 @@ a {
 
 .coeur-bloc {
   margin-right: 30px;
-}
-.coeur-bloc .icon-coeur {
-  text-shadow: 0px 3px 4px #000000;
+  font-size: 1.6em;
 }
 .coeur-bloc .icon-coeur:hover {
-  font-size: 1.5em;
-  transition: 500ms;
-  font-weight: 900;
+  animation-duration: 5s;
+  animation-delay: 5s;
   color: #9356DC;
-  text-shadow: 0px 3px 4px #9356DC;
+  font-weight: 900;
 }
 
 .bloc-footer {
@@ -377,8 +420,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -10px;
-  margin-left: -8px;
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: 1;
@@ -430,8 +471,6 @@ a {
   .loader {
     width: 100%;
     height: 100%;
-    margin-top: -10px;
-    margin-left: -7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -487,8 +526,6 @@ a {
   .loader {
     width: 100%;
     height: 100%;
-    margin-top: -7px;
-    margin-left: -7px;
     display: flex;
     justify-content: center;
     align-items: center;
