@@ -39,9 +39,14 @@
 }
  .container-media{
      display: flex;
+     flex-wrap: wrap;
      margin-top: 20px;
      flex-direction: row;
-     background: rgb(240, 240, 240);
+     justify-content: center;
+     .button{
+         width: 30%;
+     }
+     
  }
 
     .bloc-footer{
@@ -56,6 +61,7 @@
     align-items: center;
      .img-forme{
          width: 100%;
+         border-radius: 20px;
      }
  }
  .bloc-bottom2{
