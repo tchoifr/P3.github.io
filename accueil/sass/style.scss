@@ -74,6 +74,7 @@ margin-bottom: 70px;
     box-shadow: 1px 6px 7px 0px #dddddd;
     margin-bottom: 20px;
     font-weight: 900;
+    justify-content: center;
         &:hover >.icon{
             color: #9356DC ;
             
@@ -90,15 +91,16 @@ margin-bottom: 70px;
         
         .chiffre{
             display: flex;
-            justify-content: center;
-            margin-left: -9px;
-            margin-right: 25px;
-            border: 1px solid #9356DC;
-            width: 20px;
-            font-size: 0.9em;
-            border-radius: 15px;
-            height: 21px;
-            align-items: center;
+    justify-content: center;
+    border: 1px solid #9356DC;
+    width: 20px;
+    font-size: 0.9em;
+    border-radius: 15px;
+    height: 21px;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    
         }
         
         .text-fonctionnement{

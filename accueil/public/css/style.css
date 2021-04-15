@@ -188,6 +188,7 @@ body {
   box-shadow: 1px 6px 7px 0px #dddddd;
   margin-bottom: 20px;
   font-weight: 900;
+  justify-content: center;
 }
 #container2 .fonctionnement:hover > .icon {
   color: #9356DC;
@@ -203,14 +204,14 @@ body {
 #container2 .fonctionnement .chiffre {
   display: flex;
   justify-content: center;
-  margin-left: -9px;
-  margin-right: 25px;
   border: 1px solid #9356DC;
   width: 20px;
   font-size: 0.9em;
   border-radius: 15px;
   height: 21px;
   align-items: center;
+  position: absolute;
+  justify-content: center;
 }
 #container2 .fonctionnement .text-fonctionnement {
   margin-left: 40px;
@@ -406,7 +407,8 @@ body {
     justify-content: flex-start;
   }
   #destok .destok__bloc #container2 .fonctionnement .chiffre {
-    margin-right: 60px;
+    position: relative;
+    left: -23px;
   }
   #destok .destok__bloc #container2 .fonctionnement .icon {
     font-size: 1.5em;
@@ -474,7 +476,8 @@ body {
 }
 @media screen and (min-width: 430px) and (max-width: 1024px) {
   #container2 {
-    width: 95%;
+    width: 90%;
+    margin-left: 36px;
   }
 
   .container3 {
@@ -500,7 +503,13 @@ body {
   }
   .fonctionnement .chiffre {
     position: absolute;
-    left: 19px;
+    left: 13px;
+  }
+}
+@media screen and (max-width: 429px) {
+  .chiffre {
+    position: absolute;
+    left: -1px;
   }
 }
 @keyframes loader {

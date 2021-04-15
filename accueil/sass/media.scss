@@ -60,7 +60,8 @@ display: flex;
     font-weight: 900;
     justify-content: flex-start;
         .chiffre{
-            margin-right: 60px;
+    position: relative;
+    left: -23px;
         }
         .icon{
             font-size: 1.5em;
@@ -136,7 +137,8 @@ display: flex;
 }
 @media screen and (min-width: 430px) and (max-width:1024px){
 #container2{
-    width: 95%;
+    width: 90%;
+    margin-left: 36px;
 }
     .container3{
     display: flex;
@@ -161,8 +163,16 @@ display: flex;
             justify-content: center;
             .chiffre{
                 position: absolute;
-                left: 19px;
+                left: 13px;
             }
         }
+
+}
+@media screen and (max-width:429px){
+.chiffre{
+    position: absolute;
+    left: -1px;
+}
+
 
 }
