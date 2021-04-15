@@ -85,9 +85,13 @@
          }
       .bloc .texte .menu {
         white-space: nowrap;
-        overflow: hidden; 
-        text-overflow: ellipsis;
-        font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
         .text-ellipsis{
         overflow: hidden; 
         text-overflow: ellipsis;

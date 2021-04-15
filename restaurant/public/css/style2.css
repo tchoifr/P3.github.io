@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 h3 {
-  margin: 0;
+  margin: 1px;
   font-size: 0.9em;
 }
 
@@ -15,7 +15,7 @@ a {
 }
 
 p {
-  margin: 3px;
+  margin: 1px;
   font-size: 0.9em;
   font-family: "Roboto", sans-serif;
 }
@@ -283,6 +283,10 @@ img {
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 .container-media .bloc .texte .menu .text-ellipsis {
   overflow: hidden;
