@@ -106,6 +106,7 @@ p {
 .gras {
   font-weight: 700;
   margin: 16px;
+  padding-top: 12px;
 }
 
 .titre-footer {

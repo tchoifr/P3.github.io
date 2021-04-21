@@ -335,6 +335,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 10px;
 }
 
 .like {
@@ -370,7 +371,7 @@ img {
 }
 .titre .titre-gras {
   width: 50px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   margin: 5px;
   display: flex;
   justify-content: flex-start;
